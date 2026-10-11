@@ -289,3 +289,73 @@ table.tabla-rutas td{
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
     background-color: #306687b0;
 }
+
+/* REservaciones y solicitudes */
+.contenedor{
+    max-width: 50rem;
+    width: 100%;
+    padding: 25px 30px;
+    background-color: white;
+    border-radius: 8px;
+    margin: 1rem auto;
+}
+
+form .campo{
+    width: 80%;
+    margin: 0 auto 15px;
+}
+
+.campo input,
+.campo select{
+    height: 40px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+
+form label{
+    display:block;
+    font-weight: 500;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.campo input{
+    height: 40px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border:1px solid #ccc;
+    padding-left: 15px;
+    border-bottom-width: 2px ;
+    transition: all 0.3s ease;
+}
+
+.botones{
+    display: flex;
+    width: 50%;
+    height: 40px;
+    margin: 40px auto;
+    gap: 1rem;
+}
+.botones button{
+    flex:1;
+    width: 50%;
+    height: 100%;
+    outline: none;
+    cursor:pointer;
+    font-size: 16px;
+    font-weight: 500;
+    border:none;
+    border-radius: 5px;
+}
+.tlegend{
+    text-align: center;
+}
+.fila{
+    width: 50%;
+    margin:1rem auto;
+}
