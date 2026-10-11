@@ -44,6 +44,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 .logo-area{
     color:white;
@@ -52,6 +53,7 @@ body{
 body, html{
     margin: 0;
     padding: 0;
+    width: 100%;
 }
 
 .menu ul{
@@ -74,4 +76,93 @@ body, html{
 }
 .destino h2{
     text-align: center;
+}
+
+
+/*--destinos_y_rutas*/
+
+.Rutas-turisticas h1{
+    text-align: center;
+}
+.Ruta-contenedor{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-bottom: 1rem;
+
+}
+.Ruta-contenedor2{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+
+}
+.ruta{
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    width: 40rem;
+}
+.ruta img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.ruta h2{
+    text-align: center;
+}
+
+.tabla-rutas{
+    border-collapse: collapse;
+    width: 95%;
+    margin: 1rem auto;
+    background-color: #f5f5f5;
+}
+table.tabla-rutas th, 
+table.tabla-rutas td{
+    text-align: justify;
+    padding: 5px 10px;
+}
+.tabla-distancias{
+    border-collapse: collapse;
+    width: 95%;
+    margin: 1rem auto;
+    background-color: #f5f5f5;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    border: 1px solid #000000;
+}
+.tabla-distancias th,
+.tabla-distancias td{
+    border: 1px solid #000000;
+    padding: 5px 10px;
+    text-align: justify;
+}
+.imagen-hover:hover{
+    content: url('../img/imagen-hover.jpeg');
+}
+.imagen-hover2:hover{
+    content: url('../img/imagen-hover2.jpg');
+}
+.imagen-hover3:hover{
+    content: url('../img/imagen-hover3.jpeg');
+}
+.imagen-hover4:hover{
+    content: url('../img/imagen-hover4.jpeg');
+}
+
+.boton{
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: translate(-3px);
+    padding: 0.5rem 1rem;
+    margin:  auto;
+    margin-top: auto;
+}
+
+.boton:hover{
+    background-color: #3e7a2f;
 }
