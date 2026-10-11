@@ -164,5 +164,128 @@ table.tabla-rutas td{
 }
 
 .boton:hover{
-    background-color: #3e7a2f;
+    background-color: #d19b1d;
+}
+
+/* cultura patrimonio */
+
+.contenedor-Francisco{
+    display: flex;
+    justify-content: center;
+}
+.ident{
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    width: 40rem;
+}
+.ident p{
+    text-align: justify;
+}
+.ident img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.iden img{
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    height: 300px; 
+    border-radius: 8px;
+    margin-top: 0.5rem;
+}
+
+.contenido-proceres{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.iden{
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    width: 35rem;
+}
+
+.titulo-identidad{
+    text-align: center;
+    margin: 2rem;
+}
+.tabla-etnias{
+    border-collapse: collapse;
+    width: 50%;
+    margin: 1rem auto;
+    background-color: #f5f5f5;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.tabla-etnias th,
+.tabla-etnias td{
+    width: 20%;
+    padding: 14px 16px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.tabla-etnias img{
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 0.5rem auto 0;
+}
+
+.tabla-etnias th{
+    background-color: #95939390;
+    text-transform: uppercase;
+}
+.tabla-etnias tr:nth-child(even){
+    background: #f9f9f9;
+}
+.etn p{
+    text-align: center;
+    width: 50%;
+    margin: 1rem auto;
+}
+.contenido-gastronomia{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    align-items: stretch;
+}
+.gastronomia{
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    width: 25rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+.gastronomia img{
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    height: 300px; 
+    border-radius: 8px;
+    margin-top: 1rem;
+}
+.gastronomia p{
+    text-align: center;
+}
+.descripcion{
+    text-align: center;
+}
+
+.gastronomia:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+    background-color: #306687b0;
 }
