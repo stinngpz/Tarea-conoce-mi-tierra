@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conoce tu tierra</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header class="Encabezado-Pagina">
+        <div class="logo-area">
+            <h1>Conoce mi tierra</h1>
+            <p class="eslogan">Conoce nuestra tierra y sus maravillas</p>
+        </div>
+    </header>
+    <nav class="menu">
+        <ul>
+            <li><a href="Inicio.html">Inicio</a></li>
+            <li><a href="Destinos y rutas turisticas.html">Destinos y rutas turísticas</a></li>
+            <li><a href="Cultura,Patrimonio y Gastronomia Nacional.html">Cultura, Patrimonio y Gastronomía Nacional</a></li>
+            <li><a href="Reservaciones Y Solicitudes tours.html">Reservaciones Y Solicitudes tours</a></li>
+            <li><a href="Contacto y Asistencia.html">Contacto Y Asistencia</a></li>
+        </ul>
+    </nav>
+    <main>
+         <section class="contacto">
+            <h1 class="titulo">Contacto y Asistencia al Turista</h1>
+ 
+            <div class="emergencias">
+                <h2>Telefonos de emergencia</h2>
+                <div class="lista-emergencias">
+                    <div class="emergencia">
+                        <h3>Emergencias nacionales</h3>
+                        <p class="numero">911</p>
+                    </div>
+                    <div class="emergencia">
+                        <h3>Emergencias turisticas</h3>
+                        <p class="numero">089</p>
+                    </div>
+                    <div class="emergencia">
+                        <h3>Asistencia vial</h3>
+                        <p class="numero">9255-8296</p>
+                    </div>
+                    <div class="emergencia">
+                        <h3>Asistencia vial (celular)</h3>
+                        <p class="numero">*3333</p>
+                    </div>
+                </div>
+            </div>
+ 
+            <h2 class="subtitulo">Oficinas de informacion turistica</h2>
+            <div class="oficinas">
+                <article class="oficina">
+                    <h3>Instituto Hondureno de Turismo (IHT)</h3>
+                    <figure>
+                        <img src="img/mapa-iht.png" alt="Mapa del Centro Civico Gubernamental en Tegucigalpa">
+                        <figcaption>Centro Civico Gubernamental, Tegucigalpa</figcaption>
+                    </figure>
+                    <p><strong>Direccion:</strong> Av. Ramon Ernesto Cruz, Tegucigalpa, Francisco Morazan</p>
+                    <p><strong>Referencia:</strong> Centro Civico Gubernamental, cerca de la Casa Presidencial</p>
+                    <p><strong>Horario:</strong> Lunes a viernes de 8:00 AM a 4:00 PM</p>
+                    <p><strong>Telefono:</strong> (+504) 2242-7920</p>
+                </article>
+ 
+                <article class="oficina">
+                    <h3>Camara Nacional de Turismo (CANATURH)</h3>
+                    <figure>
+                        <img src="img/mapa-canaturh.png" alt="Mapa de la Colonia Lomas del Guijarro en Tegucigalpa">
+                        <figcaption>Colonia Lomas del Guijarro Sur, Tegucigalpa</figcaption>
+                    </figure>
+                    <p><strong>Direccion:</strong> Col. Lomas del Guijarro Sur, calle Paris, Ave. Niza No. 1223, Tegucigalpa</p>
+                    <p><strong>Referencia:</strong> Cerca de la Av. Berlin y la calle Madrid</p>
+                    <p><strong>Horario:</strong> Consultar por telefono</p>
+                    <p><strong>Telefono:</strong> +504 9678-8084</p>
+                </article>
+            </div>
+ 
+            <div class="canales">
+                <h2>Canales oficiales</h2>
+                <p><strong>Correo electronico:</strong> <a href="mailto:tourisminfo@iht.hn">tourisminfo@iht.hn</a></p>
+                <ul>
+                    <li><a href="https://www.iht.hn/" target="_blank">Instituto Hondureno de Turismo</a></li>
+                    <li><a href="https://www.facebook.com/IHToficial/" target="_blank">Facebook del IHT</a></li>
+                    <li><a href="https://canaturh.org/" target="_blank">CANATURH</a></li>
+                </ul>
+            </div>
+ 
+            <h2 class="subtitulo">Consultas y comentarios</h2>
+            <div class="contenedor">
+                <form class="formulario" action="#" method="post">
+                    <fieldset>
+                        <legend class="tlegend">Formulario de contacto</legend>
+ 
+                        <div class="campo">
+                            <label for="nombre">Nombre completo</label>
+                            <input type="text" id="nombre" name="nombre" required minlength="5" maxlength="60" pattern="[A-Za-z ]+" title="Solo letras y espacios">
+                        </div>
+ 
+                        <div class="campo">
+                            <label for="correo">Correo electronico</label>
+                            <input type="email" id="correo" name="correo" required maxlength="80">
+                        </div>
+ 
+                        <div class="campo">
+                            <label for="tipo">Tipo de solicitud</label>
+                            <select id="tipo" name="tipo" required>
+                                <option value="">Seleccione una opcion</option>
+                                <option value="consulta">Consulta general</option>
+                                <option value="comentario">Comentario</option>
+                                <option value="asistencia">Asistencia ciudadana</option>
+                            </select>
+                        </div>
+ 
+                        <div class="campo">
+                            <label for="mensaje">Mensaje</label>
+                            <textarea id="mensaje" name="mensaje" rows="5" required minlength="10" maxlength="500"></textarea>
+                        </div>
+ 
+                        <div class="confirmacion">
+                            <label>
+                                <input type="checkbox" name="acepto" required>
+                                Acepto que mis datos se usen solo para responder mi solicitud.
+                            </label>
+                        </div>
+                    </fieldset>
+ 
+                    <div class="botones">
+                        <button type="submit">Enviar</button>
+                        <button type="reset">Limpiar</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
